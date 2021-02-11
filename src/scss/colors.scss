@@ -1,0 +1,20 @@
+
+
+:root {
+   --secondary: #ce4c4c; 
+   --headerOverlay: #4949499f;
+}
+
+.secondary {
+    color: var(--secondary);
+}
+
+.btn-primary {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
+.btn-primary:hover {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
+
