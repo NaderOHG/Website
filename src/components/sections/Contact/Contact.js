@@ -102,7 +102,7 @@ handleSubmit(event) {
   this.setState({ status: "Sending" });  
   axios({
     method: "POST",
-    url: "http://backend.nksolutions.net:5000/contact",
+    url: "http://backend.nader-recycling.de:5000/contact",
     data: this.state,
   }).then((response) => {
     if (response.data.status === "sent") {
