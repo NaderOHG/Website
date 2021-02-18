@@ -1,7 +1,9 @@
 import React from 'react';
 import FooterDate from '../../atoms/date'
 
+import MapMakerToggle from '../../sections/MapMarker/MapMakerToggle'
 import Link from '../Link/Link';
+
 
 const footer = () => {
   return (
@@ -29,8 +31,9 @@ const footer = () => {
                   <i className='fab fa-facebook mr-4' />
                 </a>
                 <a href='https://www.ebay.de/str/teilezirkus' className='text-light'>
-                  <i className='fab fa-ebay' />
+                  <i className='fab fa-ebay mr-4' />
                 </a>
+                <MapMakerToggle />
               </div>
             </div>
           </div>
@@ -100,7 +103,7 @@ const footer = () => {
               <p>
             
                 <div className='footer-content'>
-              <ul className='list-group quick-links'>
+                  <ul className='list-group quick-links'>
                   <li>
                     <Link target='home' offset={-120}>
                       AGB
@@ -115,6 +118,11 @@ const footer = () => {
                       <Link target='home'>
                         Impressum
                   </Link>
+                    </li>
+                    <li>
+                    <Link target='Widerruf'>
+                      Test
+                    </Link>
                     </li>
                   </ul>
                   </div>
