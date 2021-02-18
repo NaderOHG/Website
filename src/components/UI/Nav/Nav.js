@@ -68,6 +68,11 @@ const Nav = () => {
                 Kontakt
               </Link>
             </li>
+            <li className='nav-item'>
+              <a href='https://www.ebay.de/str/teilezirkus' className="nav-link" classes='nav-link'>
+                Shop
+              </a>
+            </li>
           </ul>
         </div>
       </div>
