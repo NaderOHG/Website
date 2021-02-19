@@ -50,6 +50,7 @@
     font-weight: 700;
     color: #4e4e4e !important;
     font-size: 0.85rem;
+    margin-top: 15px;
     &:hover {
       color: var(--secondary) !important;
     }
@@ -58,6 +59,7 @@
     }
     @media (min-width: 768px) {
       padding: 1rem 1rem;
+      margin-top: 0;
     }
   }
   .top-bar {

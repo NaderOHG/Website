@@ -12,10 +12,10 @@ import Autorecycling from './ServiceContents/Autorecycling';
 
 const customStyles = {
   content : {
-    top              : '10%',
-    left             : '10%',
-    right            : '10%',
-    bottom           : '10%',
+    top              : '8%',
+    left             : '8%',
+    right            : '8%',
+    bottom           : '8%',
     boxShadow        : '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
   }
 };
