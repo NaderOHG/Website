@@ -13,9 +13,8 @@ const about = () => {
             <span>Unser </span>Unternehmen
           </h3>
           <h6 className='section-subtitle mr-auto ml-auto'>
-            Individualized quality care that meets the total needs of the
-            patient Individualized quality care that quality care that
-            Individualized quality care that meets the total.
+          Erfahren Sie mehr über unser Unternehmen, unsere Geschichte und unsere Werte.
+          Bei Fragen zu unserem Entsorgungsfachbetrieb helfen wir Ihnen gerne weiter.
           </h6>
         </div>
         <div className='section-content'>
@@ -29,22 +28,17 @@ const about = () => {
               <h3 className='about-title'>Über uns</h3>
               <div className='about-description'>
                 <p>
-                  Curabitur aliquet quam id dui posuere blandit. Donec
-                  sollicitudin molestie malesuada Pellentesque ipsum id orci
-                  porta dapibus. Vivamus suscipit tortor eget felis porttitor
-                  volutpat.
+                Die Helmut Nader Recycling OHG wurde vor über 60 Jahren gegründet. 
+                Heute leiten Carmen und Helmut Nader das Geschäft und auch ihre beiden Söhne 
+                sind in vierter Generation im Unternehmen tätig. Mittlerweile zählt unser 
+                familiengeführtes Unternehmen insgesamt 14 Mitarbeiter.
                 </p>
                 <p>
-                  Neque porro quisquam est, qui dolorem ipsum quia dolor , sed
-                  quia non numquam eius modi tempora incidunt ut labore et
-                  dolore magnam aliquam quaerat voluptatem. Nisi ut aliquid ex
-                  ea commodi consequatur?
+                Unser Unternehmen ist organisch ausgerichtet und durch strategische 
+                Akquisitionen zu einem Metall- und Schrottrecyclingunternehmen in 
+                Deutschland gewachsen. 
                 </p>
-                <p>
-                  Quis autem vel eum iure reprehenderit qui in ea voluptate
-                  velit esse quam nihil molestiae consequatur, vel illum qui
-                  dolorem eum fugiat quo voluptas nulla pariatur
-                </p>
+                
                 <Link target='/team' className='btn rounded-0' style={{background: 'var(--secondary)'}}> Unser Team</Link>
               </div>
             </div>
