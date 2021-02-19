@@ -1,6 +1,17 @@
 #services {
   background-color: #dbdbdb;
 }
+.serviceContents {
+  text-align: center;
+  margin-top: 50px;
+}
+.modalClose{
+  right: 15px;
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  font-size: x-large;
+}
 .service-box {
   padding: 2rem;
   border: 1px solid #eef1f5;
