@@ -29,7 +29,7 @@ class Footer extends Component {
                 <small>Adresse :<br /> Ödholz 1 <br></br> 94133 Röhrnbach, DE</small>
               </p>
               <p className='text-muted'>
-                <small>Telefon : +49 (0) 8551 4844</small>
+                <small href="tel:+4985514844">Telefon : +49 (0) 8551 4844</small>
               </p>
               <p className='text-muted'>
                 <small>E-mail : info@nader-recycling.de</small>
@@ -101,7 +101,7 @@ class Footer extends Component {
                  
                   <p>
               <button className='btn rounded-5 btn-sm' style={{width: 150, background: 'var(--secondary)'}} type="submit">
-                    Abbonieren
+                    Abonnieren
                   </button>
               </p>
                   </form>
