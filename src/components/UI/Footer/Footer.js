@@ -100,7 +100,7 @@ const footer = () => {
               <h6>Info</h6>
             </div>
             <div className='footer-content'>
-              <p>
+              <span>
             
                 <div className='footer-content'>
                   <ul className='list-group quick-links'>
@@ -121,12 +121,12 @@ const footer = () => {
                     </li>
                     <li>
                     <Link target='Widerruf'>
-                      Test
+                      Widerruf
                     </Link>
                     </li>
                   </ul>
                   </div>
-              </p>
+              </span>
             </div>
           </div>
         </div>

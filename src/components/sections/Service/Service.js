@@ -50,6 +50,10 @@ class Service extends React.Component {
     this.handleOpenModalAuto = this.handleOpenModalAuto.bind(this);
     this.handleCloseModalAuto = this.handleCloseModalAuto.bind(this);
   }
+
+  componentWillMount() {
+    ReactModal.setAppElement('body');
+}
 //KFZ Entsorgung  
   handleOpenModal () {
     this.setState({ showModal: true });
