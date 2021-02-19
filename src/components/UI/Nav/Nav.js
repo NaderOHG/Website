@@ -24,7 +24,7 @@ const Nav = () => {
     <nav className={`navbar navbar-expand-md bg-light ${navClass}`}>
       <div className='container'>
   
-        <a className='navbar-brand' href='!#'>
+        <a className='navbar-brand' href='/'>
           <img src={Brand} alt="logo" style={{ height: 35, width: 190 }}></img>
           
         </a>
