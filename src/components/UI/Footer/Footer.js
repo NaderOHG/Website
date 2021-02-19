@@ -96,7 +96,7 @@ class Footer extends Component {
                     className='form-control rounded-5'
                     aria-describedby='emailHelp'
                     placeholder='email eintragen'
-                    style={{width: 160, height: 25, marginBottom: 10 }}
+                    style={{width: 160, height: 25, marginBottom: 15 }}
                   />
                  
                   <p>
