@@ -5,6 +5,9 @@ class Containerdienst extends Component {
     render() { 
         return ( 
             <div className="serviceContents">
+
+               <h3>Containerdienst</h3>
+               <br></br>
                 
                 Wir wissen, dass nicht alle Unternehmen gleich sind und dass verschiedene Abfallbewirtschaftungsprogramme unterschiedliche 
                 Sammellösungen erfordern. Wir bieten eine Vielzahl von vollständig konformen Abfallverwertungsbehältern an, die auf die Anforderungen 

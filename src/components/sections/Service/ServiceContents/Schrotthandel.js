@@ -5,6 +5,9 @@ class Schrotthandel extends Component {
     render() { 
         return ( 
             <div className="serviceContents">
+
+              <h3>Schrotthandel</h3>
+              <br></br>
                
                Wir bieten einen umfassenden Schrottsammelservice an. Da wir seit über 60 Jahren Schrott für Eigenheimbesitzer und Unternehmen recyceln, 
                hat unser erfahrenes Team einen bewährten Ansatz entwickelt, um Schrott auf die sicherste und effizienteste 

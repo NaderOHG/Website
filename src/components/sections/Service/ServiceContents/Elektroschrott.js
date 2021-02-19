@@ -5,6 +5,8 @@ class Elektroschrott extends Component {
     render() { 
         return ( 
             <div className="serviceContents">
+              <h3>Elektroschrott</h3>
+              <br></br>
                
                Wir bieten einen Entsorgungsservice an, der den erzielbaren Wert Ihrer unerwünschten Elektrogeräte maximiert. 
                Unser Service ist darauf ausgerichtet, eine nachhaltige und umweltbewusste Lösung für Ihre E-Recycling-Anforderungen zu bieten. 

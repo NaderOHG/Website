@@ -5,6 +5,8 @@ class Altmetall extends Component {
     render() { 
         return ( 
             <div className="serviceContents">
+               <h3>Altmetall</h3>
+               <br></br>
             
                 Wir sind stolz darauf, unsere Dienstleistungen im Bau-, Handels- und Haushaltsbereich anbieten zu können. Mit über 60 Jahren Erfahrung 
                 als professioneller Altmetall-Recycler verfügen wir über ein umfassendes Leistungsspektrum für alle unsere Kunden, egal, 
