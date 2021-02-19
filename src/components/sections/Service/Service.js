@@ -166,7 +166,7 @@ render() {
               <div  onClick={this.handleOpenModal} className='service-box d-flex'>
 
                 <div className='service-icon mr-4'>
-                  <i className='fas fa-code' />
+                  <i className='fas fa-car-side' />
                 </div>
 
                 <div className='service-body'>
@@ -175,9 +175,7 @@ render() {
                   <p className='service-description'>
                   Egal, ob Sie eine Privatperson, ein Fuhrparkbetreiber, 
                   eine Werkstatt oder ein Unternehmen sind, unsere Dienstleistungen decken Ihre 
-                  Bedürfnisse ab. Bei der Abholung Ihres Fahrzeugs können Sie den Service so 
-                  auswählen und gestalten, dass er Ihren spezifischen Geschäftsanforderungen und 
-                  Ihrem Budget entspricht.
+                  Bedürfnisse ab. [...]
                   </p>
                 </div>
               </div>
@@ -190,8 +188,7 @@ render() {
                 <div className='service-body'>
                   <h5 className='service-title'>Altmetall</h5>
                   <p className='service-description'>
-                  Wir sind stolz darauf, unsere Dienstleistungen im Bau-, Handels- und Haushaltsbereich anbieten zu können. 
-                  Mit über 60 Jahren Erfahrung als professioneller Altmetall-Recycler verfügen wir über ein umfassendes Leistungsspektrum für alle unsere Kunden, egal, ob es sich um ein Anliegen in einem Privathaushalt, Gewerbe oder Industrie handelt.
+                  Mit über 60 Jahren Erfahrung als professioneller Altmetall-Recycler verfügen wir über ein umfassendes Leistungsspektrum für alle unsere Kunden, [...]
                   </p>
                 </div>
               </div>
@@ -199,15 +196,13 @@ render() {
             <div className='col-md-6 col-lg-4 mb-3'>
               <div onClick={this.handleOpenModalSchrotthandel} className='service-box d-flex'>
                 <div className='service-icon mr-4'>
-                  <i className='fas fa-comments' />
+                  <i className='fas fa-recycle' />
                 </div>
                 <div className='service-body'>
                   <h5 className='service-title'>Schrotthandel</h5>
-                  <p className='service-description'>
-                  Da wir seit über 60 Jahren Schrott für Eigenheimbesitzer und Unternehmen recyceln, können wir 
-                  diesen auf die sicherste und effizienteste Art zurückzugewinnen und recyceln. 
+                  <p className='service-description'> 
                   Wir können Kunden mit hohem Schrottaufkommen in ihren Räumlichkeiten im Rahmen unseres 
-                  Services ein übersichtliches und transparentes Angebot zum Wert des Schrotts erstellen.
+                  Services ein übersichtliches [...]
                   </p>
                 </div>
               </div>
@@ -215,13 +210,13 @@ render() {
             <div className='col-md-6 col-lg-4 mb-3'>
               <div onClick={this.handleOpenModalContainer} className='service-box d-flex'>
                 <div className='service-icon mr-4'>
-                  <i className='fas fa-desktop' />
+                  <i className='fas fa-dumpster' />
                 </div>
                 <div className='service-body'>
                   <h5 className='service-title'>Containerdienst</h5>
                   <p className='service-description'>
-                    Wir bieten von WordPress, bis zu eigenständig Programmierten 
-                    lösungen alles an.
+                  Wir wissen, dass nicht alle Unternehmen gleich sind und dass verschiedene 
+                  Abfall- bewirtschaftungsprogramme unterschiedliche [...]
                   </p>
                 </div>
               </div>
@@ -229,13 +224,13 @@ render() {
             <div className='col-md-6 col-lg-4 mb-3'>
               <div onClick={this.handleOpenModalElektro} className='service-box d-flex'>
                 <div className='service-icon mr-4'>
-                  <i className='fas fa-project-diagram' />
+                  <i className='fas fa-bolt' />
                 </div>
                 <div className='service-body'>
                   <h5 className='service-title'>Elektroschrott</h5>
                   <p className='service-description'>
-                    Wir unterstützen Open Source lösungen, und partizipieren
-                    auch an solchen.
+                  Unser Service ist darauf ausgerichtet, eine nachhaltige und umweltbewusste 
+                  Lösung für Ihre E-Recycling-Anforderungen zu bieten. [...]
                   </p>
                 </div>
               </div>
@@ -243,12 +238,13 @@ render() {
             <div className='col-md-6 col-lg-4 mb-3'>
               <div onClick={this.handleOpenModalAuto} className='service-box d-flex'>
                 <div className='service-icon mr-4'>
-                  <i className='fas fa-server' />
+                  <i className='fas fa-car-crash' />
                 </div>
                 <div className='service-body'>
                   <h5 className='service-title'>Autorecycling</h5>
                   <p className='service-description'>
-                    Wir bieten umfangreiche IT-Lösungen für Privat und Geschäftlich.
+                  Wenn Sie Ihr Auto bei uns verschrotten lassen, können Sie sicher sein, 
+                  dass wir Ihr Fahrzeug auf umweltfreundliche Weise entsorgen [...]
                   </p>
                 </div>
               </div>

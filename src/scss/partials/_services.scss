@@ -3,7 +3,12 @@
 }
 .serviceContents {
   text-align: center;
-  margin-top: 50px;
+  margin: 70px;
+  @media (max-width: 768px) {
+    margin-top: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 .modalClose{
   right: 20px;
