@@ -1,13 +1,22 @@
-import React from 'react';
+import React, { Component } from "react";
 import FooterDate from '../../atoms/date'
+import axios from "axios";
 
 import MapMakerToggle from '../../sections/MapMarker/MapMakerToggle'
 import Link from '../Link/Link';
 
 
-const footer = () => {
-  return (
-    <footer className=''>
+class Footer extends Component {
+  constructor() {
+    super();
+    this.state = {
+      email: "",
+    };   
+  } 
+  render() {
+
+    return (   
+      <footer className=''>
       <div className='container text-light pt-5'>
         <div className='row'>
           
@@ -74,22 +83,30 @@ const footer = () => {
                   Newsletter abonnieren:
                 </small>
               </p>
-              <p>
                 <small className='text-muted'>
+                
+                <form onSubmit={this.handleSubmit.bind(this)} method="POST">
+               
                 <input
                     type='email'
+                    id="email"
+                    value={this.state.email}
+                    onChange={this.handleChange.bind(this)}
+                    required
                     className='form-control rounded-5'
                     aria-describedby='emailHelp'
                     placeholder='email eintragen'
-                    style={{width: 160, height: 25 }}
+                    style={{width: 160, height: 25, marginBottom: 10 }}
                   />
-                </small>
-              </p>
-              <p>
-              <button className='btn rounded-5 btn-sm' style={{width: 150, background: 'var(--secondary)'}} >
+                 
+                  <p>
+              <button className='btn rounded-5 btn-sm' style={{width: 150, background: 'var(--secondary)'}} type="submit">
                     Abbonieren
                   </button>
               </p>
+                  </form>
+                  
+                </small>
             </div>
           </div>
           
@@ -136,6 +153,30 @@ const footer = () => {
       </div>
     </footer>
   );
-};
+}
 
-export default footer;
+handleChange(event) {
+  const field = event.target.id;
+  if (field === "email") {
+    this.setState({ email: event.target.value });
+  } 
+}
+handleSubmit(event) {
+  event.preventDefault();   
+  axios({
+    method: "POST",
+    url: "http://localhost:5000/newsletter",
+    data: this.state,
+  }).then((response) => {
+    if (response.data.status === "sent") {
+      alert("Message Sent");
+      this.setState({ email: ""});
+    } else if (response.data.status === "failed") {
+      alert("Message Failed");
+    }
+  });
+}
+}
+
+export default Footer;
+
