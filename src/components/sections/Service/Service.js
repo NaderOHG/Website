@@ -12,7 +12,7 @@ import Autorecycling from './ServiceContents/Autorecycling';
 
 const customStyles = {
   content : {
-    top              : '8%',
+    top              : '12%',
     left             : '8%',
     right            : '8%',
     bottom           : '8%',
