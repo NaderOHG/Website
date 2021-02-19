@@ -14,31 +14,31 @@ const Facts = () => {
           <div className='row'>
             <div className='col-sm-6 col-md-3 text-center mb-4'>
               <div className='mb-2 facts-icon'>
-                <i className='fas fa-users' />
+                <i className='fas fa-calendar-alt' />
               </div>
-              <h4 className='facts-counter text-light'>780</h4>
-              <h5 className='facts-title text-light'>Active Members</h5>
+              <h4 className='facts-counter text-light'>60+</h4>
+              <h5 className='facts-title text-light'>Jahre Erfahrung</h5>
             </div>
             <div className='col-sm-6 col-md-3 text-center mb-4'>
               <div className='mb-2 facts-icon'>
                 <i className='fas fa-grin-beam' />
               </div>
-              <h4 className='facts-counter text-light'>1004</h4>
-              <h5 className='facts-title text-light'>Happy Clients</h5>
+              <h4 className='facts-counter text-light'>4000+</h4>
+              <h5 className='facts-title text-light'>Zufriedene Kunden</h5>
             </div>
             <div className='col-sm-6 col-md-3 text-center mb-4'>
               <div className='mb-2 facts-icon'>
-                <i className='fas fa-project-diagram' />
+                <i className='fas fa-graduation-cap' />
               </div>
-              <h4 className='facts-counter text-light'>2850</h4>
-              <h5 className='facts-title text-light'>Total Projects</h5>
+              <h4 className='facts-counter text-light'>5+</h4>
+              <h5 className='facts-title text-light'>Zertifizierungen</h5>
             </div>
             <div className='col-sm-6 col-md-3 text-center mb-4'>
               <div className='mb-2 facts-icon'>
-                <i className='fas fa-trophy' />
+                <i className='fas fa-users' />
               </div>
-              <h4 className='facts-counter text-light'>56</h4>
-              <h5 className='facts-title text-light'>Awards</h5>
+              <h4 className='facts-counter text-light'>14</h4>
+              <h5 className='facts-title text-light'>Angestellte</h5>
             </div>
           </div>
         </div>
