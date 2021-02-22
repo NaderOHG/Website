@@ -29,7 +29,6 @@
       top: 50%;
       transform: translateY(-50%);
       position: relative;
-      z-index: 2;
       .title {
         font-weight: bold;
 
@@ -42,10 +41,10 @@
         max-width: 700px;
         margin: 0 auto;
         letter-spacing: 1px;
-        font-size: 1rem;
+        font-size: 0.9rem;
 
         @media (min-width: 768px) {
-          font-size: 1.2rem;
+          font-size: 0.9rem;
         }
       }
     }

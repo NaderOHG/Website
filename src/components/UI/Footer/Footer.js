@@ -4,6 +4,7 @@ import axios from "axios";
 
 import MapMakerToggle from '../../sections/MapMarker/MapMakerToggle'
 import Link from '../Link/Link';
+import Datenschutz from "../../sections/info/datenschutz";
 
 
 class Footer extends Component {
@@ -127,7 +128,7 @@ class Footer extends Component {
                   </Link>
                   </li>
                     <li>
-                      <Link target='home'>
+                      <Link to='/Datenschutz'>
                         Datenschutz
                   </Link>
                     </li>

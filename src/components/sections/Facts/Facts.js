@@ -30,7 +30,7 @@ const Facts = () => {
               <div className='mb-2 facts-icon'>
                 <i className='fas fa-graduation-cap' />
               </div>
-              <h4 className='facts-counter text-light'>5+</h4>
+              <h4 className='facts-counter text-light'>3</h4>
               <h5 className='facts-title text-light'>Zertifizierungen</h5>
             </div>
             <div className='col-sm-6 col-md-3 text-center mb-4'>
