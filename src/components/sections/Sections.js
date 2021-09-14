@@ -6,8 +6,6 @@ import Service from './Service/Service';
 import Facts from './Facts/Facts';
 //import Blog from './Blog/Blog';
 import Contact from './Contact/Contact';
-import MapMakerToggle from './MapMarker/MapMakerToggle';
-//import MapMarker from './MapMarker/MapMarker';
 
 const sections = () => {
   return (
@@ -17,7 +15,6 @@ const sections = () => {
       <Service />
       <Facts />
       <Contact />
-      <MapMakerToggle/>
     </Fragment>
   );
 };
