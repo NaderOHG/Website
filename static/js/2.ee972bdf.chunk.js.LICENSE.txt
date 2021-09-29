@@ -22,6 +22,8 @@ object-assign
  * http://api.jqueryui.com/category/ui-core/
  */
 
+/*! For license information please see index.js.LICENSE.txt */
+
 /** @license React v0.19.1
  * scheduler.production.min.js
  *
