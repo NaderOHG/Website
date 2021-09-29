@@ -3,7 +3,7 @@ import FooterDate from '../../atoms/date'
 import axios from "axios";
 import Section from '../../../HOC/Section';
 import Link from '../Link/Link';
-//import Datenschutz from "../../sections/info/datenschutz";
+import { BrowserRouter as Router, Link as RoutingLink, Route, Switch } from 'react-router-dom';
 
 
 class Footer extends Component {
@@ -164,9 +164,11 @@ toggleMap = () => {
                   </Link>
                     </li>
                     <li>
-                    <Link target='Widerruf'>
+                    <Router>
+                    <RoutingLink to='widerruf'>
                       Widerruf
-                    </Link>
+                    </RoutingLink>
+                    </Router>
                     </li>
                   </ul>
                   </div>
